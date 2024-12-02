@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fs = 100  # Sampling frequency
+fs = 200  # Sampling frequency
 t = np.linspace(0, 1, fs)  # 1 second
-pulse = np.sin(2 * np.pi * 1000 * t)  # 1 kHz pulse
+pulse = np.sin(2 * np.pi * 50 * t)  # 1 kHz pulse
 
 # Simulated echoes
 echo1 = np.roll(pulse, 500) * 0.6  # Delay of 500 samples, scaled amplitude
