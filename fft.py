@@ -1,3 +1,5 @@
+# impliments the fast furiour transform to gat the frequency data of a signal
+
 from scipy.fftpack import fft
 from simulatedSignal import received_signal
 from simulatedSignal import t
