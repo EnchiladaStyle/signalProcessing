@@ -1,3 +1,4 @@
+# determines the cross correlation and plots it on a graph
 
 from scipy.fftpack import fft
 from simulatedSignal import received_signal
