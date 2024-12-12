@@ -1,5 +1,5 @@
-#TODO
-#use the fast fourier transform to determine what is just noise and then filter it out.
+
+#determines the signal noise ratio and prints it to the console
 
 from scipy.fftpack import fft
 from simulatedSignal import received_signal
