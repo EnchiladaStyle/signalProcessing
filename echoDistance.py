@@ -5,7 +5,6 @@
 from scipy.fftpack import fft
 from simulatedSignal import received_signal
 from simulatedSignal import fs
-import numpy as np
 
 echo_distances = [lag / fs * 343 for lag in peak_lags]
 print(f"Echo distances: {echo_distances}")
