@@ -18,11 +18,3 @@ echo2 = np.roll(pulse, 1000) * 0.3  # Delay of 1000 samples, scaled amplitude
 # Add noise and combine
 noise = np.random.normal(0, 0.1, len(t))
 received_signal = pulse + echo1 + echo2 + noise
-
-'''
-plt.plot(t, received_signal)
-plt.title("Simulated Sonar Echo Signal")
-plt.xlabel("Time (s)")
-plt.ylabel("Amplitude")
-plt.show()
-'''
