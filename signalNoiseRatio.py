@@ -8,7 +8,6 @@ from simulatedSignal import fs
 from simulatedSignal import pulse
 from simulatedSignal import noise
 import numpy as np
-import matplotlib.pyplot as plt
 
 signal_power = np.mean(pulse**2)
 noise_power = np.mean(noise**2)
