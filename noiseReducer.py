@@ -1,6 +1,5 @@
 #removes the noise from a signal and plots the new signal
 
-from scipy.fftpack import fft
 from simulatedSignal import received_signal
 from simulatedSignal import t
 import matplotlib.pyplot as plt
