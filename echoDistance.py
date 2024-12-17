@@ -2,7 +2,6 @@
 
 #impliment code to determine the distance of an object using the echo in the signal
 
-from simulatedSignal import received_signal
 from simulatedSignal import fs
 
 echo_distances = [lag / fs * 343 for lag in peak_lags]
