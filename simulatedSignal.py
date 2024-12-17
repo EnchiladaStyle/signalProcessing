@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 # t is an array of evenly spaced times between 0 and 1 second. 
 # pulse is a pure sin wave that represents the signals sent by the radar.
