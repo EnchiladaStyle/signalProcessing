@@ -1,7 +1,6 @@
 
 #determines the signal noise ratio and prints it to the console
 
-from simulatedSignal import received_signal
 from simulatedSignal import pulse
 from simulatedSignal import noise
 import numpy as np
