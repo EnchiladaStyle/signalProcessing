@@ -2,7 +2,6 @@
 
 #impliment code to determine the distance of an object using the echo in the signal
 
-from scipy.fftpack import fft
 from simulatedSignal import received_signal
 from simulatedSignal import fs
 
